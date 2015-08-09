@@ -12,6 +12,6 @@ package
 
 ```
 
-You will then need to copy the jar file `C:\dev\wiring\jvm\target\scala-2.11\server_2.11-0.1-SNAPSHOT.jar` to `C:\jetty-9.2.6\webapps\exampleWiring\WEB-INF\lib` (where of course `C:\dev\wiring\` and `C:\jetty-9.2.6\webapps\exampleWiring` are local to your machine). Note that there is a variable in the source code for `"exampleWiring"` that will need to be changed if you want your `WebAppDir` to be something other than `exampleWiring`.
+You will then need to copy the jar file `C:\dev\wiring\jvm\target\scala-2.11\server_2.11-0.1-SNAPSHOT.jar` to `C:\jetty-9.2.6\webapps\exampleWiring\WEB-INF\lib` (where of course `C:\dev\wiring\` and `C:\jetty-9.2.6\webapps\exampleWiring` are local to your machine). Note that there is a variable (`WebAppDirName`) in the source code for `"exampleWiring"` that will need to be changed if you want your webapps dir to be something other than `"exampleWiring"`.
 
-Go to `localhost:8080/exampleWiring/`
+Go to `localhost:8080/exampleWiring/` and if you do not see a simple filesystem browsing application please lodge an issue.
