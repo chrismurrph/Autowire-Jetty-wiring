@@ -2,7 +2,7 @@
 
 Demonstration of a Scala.js web client communicating with a Jetty server over Ajax, using [Autowire](https://github.com/lihaoyi/autowire) and [uPickle](http://lihaoyi.github.io/upickle-pprint/upickle/). Adapted from [here](https://github.com/lihaoyi/workbench-example-app/tree/autowire).
 
-A WEB-INF directory is included help to setup your Jetty WebApp. WEB-INF/lib contains a README.txt that has a listing of the correct jar files that can be obtained from your local artifact repository once the build has completed:
+A WEB-INF directory is included to help setup your Jetty WebApp. WEB-INF/lib contains a README.txt that has a listing of the correct jar files that can be obtained from your local artifact repository once the build has completed:
 
 ```
 sbt
