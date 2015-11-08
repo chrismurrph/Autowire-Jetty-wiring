@@ -4,3 +4,4 @@ target/
 .project
 .settings/
 /wiring.tws
+WEB-INF/classes/js/out
